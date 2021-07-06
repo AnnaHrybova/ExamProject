@@ -34,8 +34,7 @@ NOTIFICATION_WINDOW = "//div[@class='jGrowl-notification']"
 PROFILE_FAVORITE_EMPTY_LIST_XPATH = "//div[contains(text(),'В списке нет ни одного добавленного форума.')]"
 PROFILE_FAVORITE_EMPTY_LIST_TEXT = "В списке нет ни одного добавленного форума."
 
-# "//div[@class='content-block-inner']"
-# "//div[contains(text(),'В списке нет ни одного добавленного форума.')]"
+
 ADD_COMMENT_BUTTON = "//a[@href='/forum/enteros.rusff.me/#comments']"
 NEW_COMMENT_BUTTON = "//a[@class='user_comment_head']"
 ENTER_FIELD_XPATH = "//textarea[@class='add_input']"

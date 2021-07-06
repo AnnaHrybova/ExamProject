@@ -2,11 +2,6 @@ import logging
 import os
 import random
 
-import pytest
-
-def pytest_sessionstart(session):
-    """Pytest hook tha runs before test session"""
-    os.environ["Path"] += os.pathsep + os.pathsep.join([os.path.abspath("./Drivers")])
 
 def pytest_runtest_setup(item):
     """Prepare test"""
