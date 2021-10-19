@@ -3,7 +3,7 @@
 SIGN_IN_LOGIN_FIELD_XPATH = '//input[@name="login"]'
 SIGN_IN_PASSWORD_FIELD_XPATH = '//input[@name="password"]'
 SIGN_IN_BUTTON_XPATH = "//a[@href='javascript:void(0);']"
-INVALID_LOGIN_ERROR_TEXT = "Пользователь с таким адресом и паролем не найден"
+INVALID_LOGIN_ERROR_TEXT = "Пользователь с таким адресом и паролем не найден или заблокирован."
 
 START_PAGE_URL = 'https://forum-top.ru/'
 
